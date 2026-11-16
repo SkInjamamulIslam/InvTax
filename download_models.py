@@ -6,7 +6,7 @@ Download the InvTax trained models from Zenodo into models/ (next to this script
 """
 import hashlib, os, sys, tarfile, urllib.request
 
-ZENODO_RECORD = "XXXXXXX"                                   # <-- Zenodo record number, filled after upload
+ZENODO_RECORD = "24289250"                                  # InvTax models, doi:10.5281/zenodo.24289250
 MODEL_FILE = "invtax_models_v1_20261116.tar.gz"
 MODEL_MD5 = "PUT_MD5_HERE"                                  # <-- md5sum of MODEL_FILE
 URL = f"https://zenodo.org/records/{ZENODO_RECORD}/files/{MODEL_FILE}?download=1"

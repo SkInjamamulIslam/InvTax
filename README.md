@@ -1,6 +1,8 @@
 # InvTax
 
-Deep learning taxonomic classifier for invertebrate eDNA and eRNA metabarcoding reads from three markers: **COI, 16S and 18S**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24289250.svg)](https://doi.org/10.5281/zenodo.24289250)
+
+A multi-marker hybrid CNN-Transformer classifier for invertebrate eDNA and eRNA metabarcoding reads from three markers: **COI, 16S and 18S**.
 
 InvTax assigns every sequence a full lineage (kingdom, phylum, class, order, family, genus, species) with a probability score for each rank. It uses a hybrid convolution and attention network on k-mer tokens (k = 4 by default; k = 6 and 8 also provided), trained on a curated reference database of 2.34 million sequences.
 
@@ -83,11 +85,11 @@ scripts/             code used to build the reference database, train, evaluate 
 
 ## Data and models
 
-Trained models and the reference database are archived on Zenodo: [doi to be added].
+Trained models (Hybrid k4, k6 and k8) and the curated COI, 16S and 18S reference database are archived on Zenodo: [https://doi.org/10.5281/zenodo.24289250](https://doi.org/10.5281/zenodo.24289250). `install.sh` downloads the models automatically.
 
 ## Citation
 
-Islam SI, Knysh K, Steeves R, Courtenay SC, van den Heuvel MR. InvTax: a multi-marker hybrid CNN-Transformer classifier for invertebrate eDNA metabarcoding. Under Review
+Islam SI, Knysh K, Steeves R, Courtenay SC, van den Heuvel MR. InvTax: a multi-marker hybrid CNN-Transformer classifier for invertebrate eDNA and eRNA metabarcoding. In preparation.
 
 ## License
 
