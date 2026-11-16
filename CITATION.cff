@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use InvTax, please cite it as below."
+title: "InvTax: a deep learning classifier for multi-marker invertebrate eDNA and eRNA metabarcoding"
+authors:
+  - family-names: Islam
+    given-names: Sk Injamamul
+    affiliation: "Canadian Rivers Institute, University of Prince Edward Island"
+  - family-names: van den Heuvel
+    given-names: Michael R.
+    affiliation: "Canadian Rivers Institute, University of Prince Edward Island"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/SkInjamamulIslam/InvTax"
