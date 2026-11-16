@@ -87,7 +87,7 @@ Trained models and the reference database are archived on Zenodo: [doi to be add
 
 ## Citation
 
-Islam SI, van den Heuvel MR. InvTax: a deep learning classifier for multi-marker invertebrate eDNA and eRNA metabarcoding. In preparation.
+Islam SI, Knysh K, Steeves R, Courtenay SC, van den Heuvel MR. InvTax: a multi-marker hybrid CNN-Transformer classifier for invertebrate eDNA metabarcoding. Under Review
 
 ## License
 
