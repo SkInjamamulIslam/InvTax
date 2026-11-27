@@ -15,6 +15,7 @@ if ! conda env list | awk '{print $1}' | grep -qx "$ENV"; then
 fi
 conda activate "$ENV"
 pip install -r requirements.txt
+conda install -y -c bioconda -c conda-forge vsearch || echo "vsearch not installed (only needed for invtax_refcheck.py)"
 python download_models.py
 python invtax.py --help > /dev/null
 echo

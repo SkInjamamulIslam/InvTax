@@ -15,11 +15,15 @@ authors:
   - family-names: van den Heuvel
     given-names: Michael R.
     affiliation: "Canadian Rivers Institute, University of Prince Edward Island"
-version: 1.0.0
-date-released: 2026-11-16
+version: 2.0.0
+date-released: 2026-11-27
 license: MIT
 repository-code: "https://github.com/SkInjamamulIslam/InvTax"
+doi: 10.5281/zenodo.24594275
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.24594275
+    description: "InvTax 2.0.0: v2 model and primer region references (Zenodo)"
+  - type: doi
     value: 10.5281/zenodo.24289250
-    description: "Trained models and reference database (Zenodo)"
+    description: "InvTax 1.0.0: v1 models and reference database used in the paper benchmark (Zenodo)"
